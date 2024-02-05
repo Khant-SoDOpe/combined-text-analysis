@@ -19,7 +19,7 @@ Follow these steps to set up and run the project locally.
 
 Make sure you have the following installed:
 
-- Python (version X.X)
+- Python (3.12.0)
 - [Cloudflare API Key](https://developers.cloudflare.com/api)
 
 ### Installation
