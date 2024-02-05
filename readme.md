@@ -1,61 +1,55 @@
-```markdown
-# Project Title
+# Text Fusion & Cloudflare AI Integration
 
-Brief description of your project.
+Combine multiple text files into a unified document and leverage Cloudflare AI for advanced language processing.
 
 ## Overview
 
-Provide a brief overview of your project, explaining its purpose and key features.
+This project provides a seamless integration of two key functionalities: combining multiple text files into a single document and utilizing Cloudflare AI for in-depth language processing.
+
+## Features
+
+- **Text File Combination:** Combine numerous text files into a consolidated document.
+- **Cloudflare AI Integration:** Leverage Cloudflare AI to analyze and process the combined text for advanced insights.
 
 ## Getting Started
 
-These instructions will help you set up and run the project locally. 
+Follow these steps to set up and run the project locally.
 
 ### Prerequisites
 
-List any prerequisites or dependencies needed to run the project.
+Make sure you have the following installed:
 
-```bash
-# Example of installing prerequisites
-pip install -r requirements.txt
-```
+- Python (version X.X)
+- [Cloudflare API Key](https://developers.cloudflare.com/api)
 
 ### Installation
 
-Provide step-by-step instructions on how to install and run the project.
+1. Clone the repository:
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/your-repository.git
+    ```bash
+    git clone https://github.com/Khant-SoDOpe/combined-text-analysis.git
+    cd your-repository
+    ```
 
-# Change into the project directory
-cd your-repository
+2. Install dependencies:
 
-# Install dependencies
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-# Run the project
-python main.py
-```
+### Configuration
 
-## Usage
-
-Explain how to use your project, providing examples or usage scenarios.
-
-```bash
-# Example command or usage
-python script.py
-```
-
-## Configuration
-
-Replace the following placeholders in the code with your actual Cloudflare API key and account ID:
+Replace the placeholders in the script with your Cloudflare API key and account ID.
 
 ```python
+# app.py
+
 api_key = "your_api_key"
 account_id = "your_account_id"
-text_file_handler = TextFileHandler("your-folder-name", "your-folder-name/your-file-name", "how many files are there")
-output_json_file_path = 'your-folder-name/your-json-file-name'
+text_file_handler = TextFileHandler("folder-name", "folder-name/file-name", number-of-folders)
+output_json_file_path = 'folder-name/json-file-name'
 ```
 
-### Feel free to customize this template based on the specifics of your project. Add relevant sections, such as a "Troubleshooting" section or details about specific functionalities.
+## Contact
+
+For questions or feedback, contact [Sai Khant Zay Lynn Yaung(Andrew)](mailto:khantzay.ly@gmail.com).
